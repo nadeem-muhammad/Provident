@@ -1,0 +1,346 @@
+/* Add here all your CSS customizations */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000311}}
+body {
+  margin: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.125rem;
+  color: #575756; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000318}}
+.bg-white {
+  background-color: #FFF !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000322}}
+.bg-purple {
+  background-color: #96388d !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000326}}
+#header {
+  background-color: #96388d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000331}}
+.section-heading h1, .section-heading .h1 {
+  color: #96388d;
+  font-size: 1.875rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000335}}
+.section-heading p {
+  color: #96388d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000341}}
+.navbar {
+  padding: 1.875rem 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000344}}
+  .navbar .nav-item.active > a {
+    font-weight: 600;
+    color: #FFF !important;
+    text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000349}}
+  .navbar .nav-item a {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #FFF !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000353}}
+    .navbar .nav-item a:hover {
+      color: #e6007e !important;
+      text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000362}}
+.navbar-light .navbar-toggler {
+  background: #FFF;
+  padding: 0.7rem 1rem;
+  font-size: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000366}}
+  .navbar-light .navbar-toggler i {
+    color: #96388d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000371}}
+.navbar-brand {
+  width: 10rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000375}}
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000379}}
+#header .header-container {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  transition: ease height 300ms; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000387}}
+a.header-logo img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000394}}
+.breadcrumb {
+  background-color: #e6007e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\0000396}}
+  .breadcrumb a {
+    color: #FFF;
+    font-weight: 800; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003100}}
+  .breadcrumb .breadcrumb-item {
+    color: #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003103}}
+  .breadcrumb .breadcrumb-item.active {
+    color: #FFF !important;
+    font-weight: 200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003107}}
+  .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #FFF;
+    content: "/"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003115}}
+.page-header {
+  background: white;
+  background: linear-gradient(0deg, white 56%, #d6b0d2 78%, #96388d 100%);
+  border-bottom: 3px solid #96388d;
+  margin: 0;
+  padding: 30px 0;
+  position: relative;
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003125}}
+.page-header-background-pattern {
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: fixed; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003131}}
+.page-header-background-sm {
+  margin-top: 5.5rem; }
+
+/* Section Featured */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003136}}
+section.section {
+  background: #f7f7f7;
+  border-top: 5px solid #f1f1f1;
+  margin: 30px 0;
+  padding: 50px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003143}}
+section.section-custom-map {
+  background: transparent url(../../img/patterns/map.png) center 0 no-repeat;
+  background-position: bottom;
+  padding: 0px;
+  margin: 0px;
+  border: 0; }
+
+/* Featured Box */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003153}}
+.featured-box {
+  background: #FFF;
+  border-radius: 5px;
+  border: 1px solid #dee2e6;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: left;
+  z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003166}}
+#footer {
+  border-top: 5px solid #e6007e;
+  margin-top: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003169}}
+  #footer .footer-copyright {
+    background: #96388d; }
+
+@keyframes _pop {
+  from {
+    transform: scale(0) rotate(40deg); }
+  to {
+    transform: scale(1) rotate(0deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003186}}
+.members {
+  display: flex;
+  flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003189}}
+  .members .member-item {
+    animation: _pop 0.3s ease-in-out;
+    min-width: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003195}}
+.btn-primary {
+  color: #fff;
+  background-color: #96388d;
+  border-color: #96388d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003199}}
+  .btn-primary:hover {
+    background-color: #c24ab6;
+    border-color: #c24ab6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003203}}
+  .btn-primary:active {
+    background-color: #c24ab6 !important;
+    border-color: #c24ab6 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003207}}
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #c24ab6;
+    border-color: #c24ab6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003214}}
+.btn-secondary {
+  color: #fff;
+  background-color: #afca0b;
+  border-color: #afca0b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003218}}
+  .btn-secondary:hover {
+    background-color: #cfe253;
+    border-color: #cfe253; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003222}}
+  .btn-secondary:active {
+    color: #fff;
+    background-color: #cfe253 !important;
+    border-color: #cfe253 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003227}}
+  .btn-secondary:focus {
+    color: #fff;
+    background-color: #cfe253;
+    border-color: #cfe253; }
+
+@media (max-width: 575px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003238}}
+  .sorting-section {
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003242}}
+  .navbar {
+    padding: 1.875rem 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003244}}
+    .navbar .navbar-nav {
+      margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003246}}
+      .navbar .navbar-nav .nav-item {
+        margin: 0rem;
+        border-bottom: 1px solid #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003249}}
+        .navbar .navbar-nav .nav-item:last-child {
+          border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003252}}
+        .navbar .navbar-nav .nav-item.active > a {
+          font-weight: 600;
+          color: #FFF !important;
+          text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003257}}
+        .navbar .navbar-nav .nav-item a {
+          padding: 0.5rem 0rem;
+          font-weight: 300;
+          font-size: 1rem;
+          color: #FFF !important;
+          border-bottom: 1px solid #96388d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003263}}
+          .navbar .navbar-nav .nav-item a:hover {
+            color: #e6007e !important;
+            text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003274}}
+  .footer-copyright p {
+    text-align: center;
+    margin: 1rem 0 !important; } }
+@media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003284}}
+  .navbar {
+    padding: 1.875rem 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003286}}
+    .navbar .navbar-nav {
+      margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003288}}
+      .navbar .navbar-nav .nav-item {
+        margin: 0rem;
+        border-bottom: 1px solid #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003291}}
+        .navbar .navbar-nav .nav-item:last-child {
+          border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003294}}
+        .navbar .navbar-nav .nav-item.active > a {
+          font-weight: 600;
+          color: #FFF !important;
+          text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003299}}
+        .navbar .navbar-nav .nav-item a {
+          padding: 0.5rem 0rem;
+          font-weight: 300;
+          font-size: 1rem;
+          color: #FFF !important;
+          border-bottom: 1px solid #96388d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003305}}
+          .navbar .navbar-nav .nav-item a:hover {
+            color: #e6007e !important;
+            text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003316}}
+  .footer-copyright p {
+    text-align: center;
+    margin: 1rem 0 !important; } }
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003326}}
+  .navbar {
+    padding: 1.875rem 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003328}}
+    .navbar .navbar-nav {
+      margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003330}}
+      .navbar .navbar-nav .nav-item {
+        margin: 0rem;
+        border-bottom: 1px solid #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003333}}
+        .navbar .navbar-nav .nav-item:last-child {
+          border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003336}}
+        .navbar .navbar-nav .nav-item.active > a {
+          font-weight: 600;
+          color: #FFF !important;
+          text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003341}}
+        .navbar .navbar-nav .nav-item a {
+          padding: 0.5rem 0rem;
+          font-weight: 300;
+          font-size: 1rem;
+          color: #FFF !important;
+          border-bottom: 1px solid #96388d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003347}}
+          .navbar .navbar-nav .nav-item a:hover {
+            color: #e6007e !important;
+            text-decoration: underline; } }
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003361}}
+  .navbar {
+    padding: 1.875rem 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003363}}
+    .navbar .navbar-nav {
+      margin-top: 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003365}}
+      .navbar .navbar-nav .nav-item {
+        margin: 0;
+        background: transparent;
+        border-right: 1px solid #FFF;
+        border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003370}}
+        .navbar .navbar-nav .nav-item:last-child {
+          border-right: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003373}}
+        .navbar .navbar-nav .nav-item.active > a {
+          font-weight: 600;
+          color: #FFF !important;
+          text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003378}}
+        .navbar .navbar-nav .nav-item a {
+          padding: 0rem 1rem;
+          font-weight: 300;
+          font-size: 1rem;
+          color: #FFF !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/custom\.scss}line{font-family:\00003383}}
+          .navbar .navbar-nav .nav-item a:hover {
+            color: #e6007e !important;
+            text-decoration: underline; } }
+
+/*# sourceMappingURL=custom.css.map */

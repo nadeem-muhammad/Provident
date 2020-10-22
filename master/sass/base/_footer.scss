@@ -1,0 +1,173 @@
+/* #Footer */
+#footer {
+	background: #212529;
+	border-top: 4px solid #212529;
+	font-size: 0.9em;
+	margin-top: 50px;
+	padding: 0;
+	position: relative;
+	clear: both;
+
+	// Headings
+	h1, h2, h3, h4, h5, h6 {
+		color: #FFF;
+	}
+
+	// Link
+	a:not(.btn):not(.no-footer-css) {
+		color: #FFF;
+		transition: all 0.1s ease-in-out;
+
+		&:hover {
+			text-decoration: underline;
+			color: #e6007e;
+		}
+
+		&:focus, &:active {
+			color: #CCC;
+		}
+
+		// Light
+		&.text-color-light {
+			color: #FFF !important;
+
+			&:hover {
+				color: darken(#FFF, 10%) !important;
+			}
+
+			&:focus, &:active {
+				color: darken(#FFF, 20%) !important;
+			}
+		}
+
+		// Default
+		&.text-color-default {
+			color: $color-font-default !important;
+
+			&:hover {
+				color: lighten($color-font-default, 10%) !important;
+			}
+
+			&:focus, &:active {
+				color: darken($color-font-default, 10%) !important;
+			}
+		}
+
+		// Link Style 1
+		&.link-hover-style-1 {
+			position: relative;
+			left: 0px;
+			transition: all 0.1s ease-in-out;
+			&:hover {
+				left: 3px;
+			}
+		}
+	}
+
+	// Lists
+	ul {
+		&.nav-list > li {
+			a {
+				border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+				line-height: 20px;
+				padding-bottom: 11px;
+			}
+			&:last-child a {
+				border-bottom: 0;
+			}
+			a:hover {
+				background-color: rgba(255, 255, 255, 0.05);
+			}
+		}
+		&.list.icons li {
+			margin-bottom: 5px;
+		}
+	}
+
+
+
+
+	// Responsive
+	@media (max-width: 991px) {
+
+		.footer-nav {
+			width: 100%;
+			nav {
+				text-align: center;
+				> ul {
+					width: 100%;
+					> li {
+						> a {
+							text-align: center;
+							padding: 5px 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media (max-width: 767px) {
+
+		.footer-nav {
+			width: 100%;
+			nav {
+				text-align: center;
+				> ul {
+					width: 100%;
+					> li {
+						height: auto;
+						width: 100%;
+						> a {
+							text-align: center;
+							padding: 1em 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Logo
+	.logo {
+		img {
+			position: relative;
+			top: 2px;
+		}
+	}
+
+	// Copyright
+	.footer-copyright {
+		nav {
+			font-size: 0.9em;
+			color: white;
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				li {
+					display: inline-block;
+					line-height: 12px;
+					margin: 0;
+					padding: 0 8px;
+					&:first-child {
+						border: medium none;
+						padding-left: 0;
+					}
+					&:last-child {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+		p {
+			color: #FFF;
+			margin: 0;
+			padding: 0;
+			font-size: 0.9em;
+		}
+
+	}
+
+
+}

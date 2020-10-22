@@ -1,0 +1,405 @@
+/* Add here all your CSS customizations */
+
+
+// brand colors
+
+$colorPurple: #96388d;
+$colorGreen: #afca0b;
+$colorPink: #e6007e;
+$colorGrey: #c6c6c6;
+
+body {
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.125rem;
+    color: #575756;
+}
+
+.bg-white {
+    background-color: #FFF!important;
+}
+
+.bg-purple {
+    background-color: #96388d!important;
+}
+
+#header {
+    background-color: #96388d;
+}
+
+.section-heading {
+    h1, .h1 {
+        color: #96388d;
+        font-size: 1.875rem;
+    }
+    p {
+        color: #96388d;
+    }
+}
+
+
+.navbar {
+    padding: 1.875rem 0rem;
+    .nav-item {
+        &.active > a {
+            font-weight: 600;
+            color: #FFF!important;
+            text-decoration: underline;
+        }
+        a {
+            font-weight: 300;
+            font-size: 1rem;
+            color: #FFF !important;
+            &:hover {
+                color: #e6007e!important;
+                text-decoration: underline;
+            }     
+        }
+
+    }
+}
+
+.navbar-light .navbar-toggler {
+    background: #FFF;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    i {
+        color: #96388d;
+    }
+}
+
+.navbar-brand {
+    width: 10rem;
+}
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+#header .header-container {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    transition: ease height 300ms;
+}
+
+a.header-logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.breadcrumb {
+    background-color: #e6007e;
+    a {
+        color: #FFF;
+        font-weight: 800;
+    }
+    .breadcrumb-item {
+        color: #FFF;
+    }
+    .breadcrumb-item.active {
+        color: #FFF!important;
+        font-weight: 200;
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        display: inline-block;
+        padding-right: .5rem;
+        color: #FFF;
+        content: "/";
+    }
+}
+
+.page-header {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 56%, rgba(214,176,210,1) 78%, rgba(150,56,141,1) 100%);
+    border-bottom: 3px solid #96388d;
+    margin: 0;
+    padding: 30px 0;
+    position: relative;
+    text-align: left;
+}
+
+.page-header-background-pattern {
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.page-header-background-sm {
+    margin-top: 5.5rem;
+}
+
+/* Section Featured */
+section.section {
+	background: #f7f7f7;
+	border-top: 5px solid #f1f1f1;
+	margin: 30px 0;
+	padding: 50px 0;
+}
+
+section.section-custom-map {
+    background: transparent url(../../img/patterns/map.png) center 0 no-repeat;
+    background-position: bottom;
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+}
+
+
+/* Featured Box */
+.featured-box {
+	background: #FFF;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	position: relative;
+	text-align: left;
+    z-index: 1;
+}
+
+#footer{
+    border-top: 5px solid #e6007e;
+    margin-top: 0px;
+    .footer-copyright {
+        background: #96388d;
+    }   
+} 
+
+@keyframes _pop {
+    from {
+      transform: scale(0) rotate(40deg);
+    }
+    to {
+      transform: scale(1) rotate(0deg);
+    }
+  }
+
+
+// MEMBER
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    .member-item {
+        animation: _pop 0.3s ease-in-out;
+        min-width: 1px;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #96388d;
+    border-color: #96388d;
+    &:hover {
+        background-color: #c24ab6;
+        border-color: #c24ab6;
+    }
+    &:active {
+        background-color: #c24ab6 !important;
+        border-color: #c24ab6 !important;
+    }
+    &:focus {
+        color: #fff;
+        background-color: #c24ab6;
+        border-color: #c24ab6;
+    }
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #afca0b;
+    border-color: #afca0b;
+    &:hover {
+        background-color: #cfe253;
+        border-color: #cfe253;
+    }
+    &:active {
+        color: #fff;
+        background-color: #cfe253 !important;
+        border-color: #cfe253 !important;
+    }
+    &:focus {
+        color: #fff;
+        background-color: #cfe253;
+        border-color: #cfe253;
+    }
+}
+
+// Responsive
+
+@media (max-width: 575px) { 
+
+    .sorting-section {
+        text-align:center;
+    }
+
+    .navbar {
+        padding: 1.875rem 0rem;
+        .navbar-nav {
+            margin-top: 1rem;
+            .nav-item {
+                margin: 0rem;
+                border-bottom: 1px solid #FFF;
+                &:last-child {
+                    border-bottom: none;
+                }
+                &.active > a {
+                    font-weight: 600;
+                    color: #FFF!important;
+                    text-decoration: underline;
+                }
+                a {
+                    padding: 0.5rem 0rem;
+                    font-weight: 300;
+                    font-size: 1rem;
+                    color: #FFF !important;
+                    border-bottom: 1px solid #96388d;
+                    &:hover {
+                        color: #e6007e!important;
+                        text-decoration: underline;
+                    }     
+                }
+        
+            }
+        }
+    } 
+
+    .footer-copyright {
+        p {
+            text-align: center;
+            margin: 1rem 0 !important;
+        }
+    }
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .navbar {
+        padding: 1.875rem 0rem;
+        .navbar-nav {
+            margin-top: 1rem;
+            .nav-item {
+                margin: 0rem;
+                border-bottom: 1px solid #FFF;
+                &:last-child {
+                    border-bottom: none;
+                }
+                &.active > a {
+                    font-weight: 600;
+                    color: #FFF!important;
+                    text-decoration: underline;
+                }
+                a {
+                    padding: 0.5rem 0rem;
+                    font-weight: 300;
+                    font-size: 1rem;
+                    color: #FFF !important;
+                    border-bottom: 1px solid #96388d;
+                    &:hover {
+                        color: #e6007e!important;
+                        text-decoration: underline;
+                    }     
+                }
+        
+            }
+        }
+    } 
+
+    .footer-copyright {
+        p {
+            text-align: center;
+            margin: 1rem 0 !important;
+        }
+    }
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {   
+    .navbar {
+        padding: 1.875rem 0rem;
+        .navbar-nav {
+            margin-top: 1rem;
+            .nav-item {
+                margin: 0rem;
+                border-bottom: 1px solid #FFF;
+                &:last-child {
+                    border-bottom: none;
+                }
+                &.active > a {
+                    font-weight: 600;
+                    color: #FFF!important;
+                    text-decoration: underline;
+                }
+                a {
+                    padding: 0.5rem 0rem;
+                    font-weight: 300;
+                    font-size: 1rem;
+                    color: #FFF !important;
+                    border-bottom: 1px solid #96388d;
+                    &:hover {
+                        color: #e6007e!important;
+                        text-decoration: underline;
+                    }     
+                }
+        
+            }
+        }
+    } 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .navbar {
+        padding: 1.875rem 0rem;
+        .navbar-nav {
+            margin-top: 0rem;
+            .nav-item {
+                margin: 0;
+                background: transparent;
+                border-right: 1px solid #FFF;
+                border-bottom: none;
+                &:last-child {
+                    border-right: none;
+                }
+                &.active > a {
+                    font-weight: 600;
+                    color: #FFF!important;
+                    text-decoration: underline;
+                }
+                a {
+                    padding: 0rem 1rem;
+                    font-weight: 300;
+                    font-size: 1rem;
+                    color: #FFF !important;
+                    &:hover {
+                        color: #e6007e!important;
+                        text-decoration: underline;
+                    }
+                    
+                }
+        
+            }
+        }
+    } 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
+
+
+
+
+
+

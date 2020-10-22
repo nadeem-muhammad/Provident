@@ -1,0 +1,156 @@
+/* Thumb Info */
+.thumb-info {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	max-width: 100%;
+	background-color: #FFF;
+	border-radius: 4px;
+	overflow: hidden;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+
+	.thumb-info-wrapper {
+		backface-visibility: hidden;
+		transform: translate3d(0, 0, 0);
+		border-radius: 0px;
+		margin: 0;
+		overflow: hidden;
+		display: block;
+		position: relative;
+
+		&.thumb-info-wrapper-demos {
+			max-height: 330px;
+		}
+
+		&:after {
+			content: "";
+			transition: all 0.3s;
+			border-radius: 4px;
+			bottom: -4px;
+			color: #FFF;
+			left: -4px;
+			position: absolute;
+			right: -4px;
+			top: -4px;
+			display: block;
+			opacity: 0;
+			z-index: 1;
+		}
+
+		&.thumb-info-wrapper-link {
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			> a {
+				display: block;
+				padding-top: 72%;
+				text-indent: -9999px;
+			}
+		}
+	}
+
+	@for $i from 0 through 9 {
+		.thumb-info-wrapper-opacity-#{$i} {
+			&:after {
+				opacity: unquote('0.' + $i);
+			}
+		}
+	}
+
+
+
+	.thumb-info-inner {
+		transition: all 0.3s;
+		display: block;
+		em {
+			display: block;
+			font-size: 0.8em;
+			font-style: normal;
+			font-weight: normal;
+		}
+	}
+
+	.thumb-info-title {
+		transition: all 0.3s;
+		background: transparentize(#96388d, 0.2);
+		color: #FFF;
+		font-weight: 600;
+		left: 0;
+		letter-spacing: -.05em;
+		position: absolute;
+		z-index: 2;
+		max-width: 90%;
+		font-size: 17px;
+		padding: 10px 20px;
+		bottom: 5%;
+	}
+
+	.thumb-info-type {
+		background-color: #CCC;
+		border-radius: 2px;
+		display: inline-block;
+		float: left;
+		font-size: 0.6em;
+		font-weight: 600;
+		letter-spacing: 0;
+		margin: 8px -2px -15px 0px;
+		padding: 2px 12px;
+		text-transform: uppercase;
+		z-index: 2;
+		line-height: 2.3;
+	}
+
+	img {
+		transition: all 0.3s ease;
+		border-radius: 0px;
+		position: relative;
+		width: 100%;
+	}
+
+	&:hover {
+		.thumb-info-wrapper {
+			&:after {
+				opacity: 1;
+			}
+		}
+		.thumb-info-action-icon {
+			right: 0;
+			top: 0;
+		}
+		.thumb-info-title {
+			background: transparentize(#afca0b, 0.1);
+		}
+		img {
+			transform: scale(1.1, 1.1);
+		}
+	}
+
+}
+
+
+/* Thumb Info Caption  */
+.thumb-info-caption {
+	padding: 10px 0;
+	.thumb-info-caption-text, p {
+		font-size: 0.9em;
+		margin: 0;
+		padding: 15px 10px;
+		display: block;
+		a {
+			color: #96388d;
+			font-size: 0.8rem;
+		}
+	}
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+
+	.thumb-info {
+		.thumb-info-title {
+			font-size: 14px;
+		}
+	}	
+
+}

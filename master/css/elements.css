@@ -1,0 +1,514 @@
+/* #Footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\000032}}
+#footer {
+  background: #212529;
+  border-top: 4px solid #212529;
+  font-size: 0.9em;
+  margin-top: 50px;
+  padding: 0;
+  position: relative;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000312}}
+  #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+    color: #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000317}}
+  #footer a:not(.btn):not(.no-footer-css) {
+    color: #FFF;
+    transition: all 0.1s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000321}}
+    #footer a:not(.btn):not(.no-footer-css):hover {
+      text-decoration: underline;
+      color: #e6007e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000326}}
+    #footer a:not(.btn):not(.no-footer-css):focus, #footer a:not(.btn):not(.no-footer-css):active {
+      color: #CCC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000331}}
+    #footer a:not(.btn):not(.no-footer-css).text-color-light {
+      color: #FFF !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000334}}
+      #footer a:not(.btn):not(.no-footer-css).text-color-light:hover {
+        color: #e6e6e6 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000338}}
+      #footer a:not(.btn):not(.no-footer-css).text-color-light:focus, #footer a:not(.btn):not(.no-footer-css).text-color-light:active {
+        color: #cccccc !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000344}}
+    #footer a:not(.btn):not(.no-footer-css).text-color-default {
+      color: #777 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000347}}
+      #footer a:not(.btn):not(.no-footer-css).text-color-default:hover {
+        color: #919191 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000351}}
+      #footer a:not(.btn):not(.no-footer-css).text-color-default:focus, #footer a:not(.btn):not(.no-footer-css).text-color-default:active {
+        color: #5e5e5e !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000357}}
+    #footer a:not(.btn):not(.no-footer-css).link-hover-style-1 {
+      position: relative;
+      left: 0px;
+      transition: all 0.1s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000361}}
+      #footer a:not(.btn):not(.no-footer-css).link-hover-style-1:hover {
+        left: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000370}}
+  #footer ul.nav-list > li a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 20px;
+    padding-bottom: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000375}}
+  #footer ul.nav-list > li:last-child a {
+    border-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000378}}
+  #footer ul.nav-list > li a:hover {
+    background-color: rgba(255, 255, 255, 0.05); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000382}}
+  #footer ul.list.icons li {
+    margin-bottom: 5px; }
+  @media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000393}}
+    #footer .footer-nav {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000395}}
+      #footer .footer-nav nav {
+        text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\0000397}}
+        #footer .footer-nav nav > ul {
+          width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003100}}
+          #footer .footer-nav nav > ul > li > a {
+            text-align: center;
+            padding: 5px 12px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003112}}
+    #footer .footer-nav {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003114}}
+      #footer .footer-nav nav {
+        text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003116}}
+        #footer .footer-nav nav > ul {
+          width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003118}}
+          #footer .footer-nav nav > ul > li {
+            height: auto;
+            width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003121}}
+            #footer .footer-nav nav > ul > li > a {
+              text-align: center;
+              padding: 1em 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003133}}
+  #footer .logo img {
+    position: relative;
+    top: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003141}}
+  #footer .footer-copyright nav {
+    font-size: 0.9em;
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003144}}
+    #footer .footer-copyright nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003148}}
+      #footer .footer-copyright nav ul li {
+        display: inline-block;
+        line-height: 12px;
+        margin: 0;
+        padding: 0 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003153}}
+        #footer .footer-copyright nav ul li:first-child {
+          border: medium none;
+          padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003157}}
+        #footer .footer-copyright nav ul li:last-child {
+          padding-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/base\/_footer\.scss}line{font-family:\00003163}}
+  #footer .footer-copyright p {
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em; }
+
+/* Team List */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_team\.scss}line{font-family:\000032}}
+ul.team-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_team\.scss}line{font-family:\000036}}
+  ul.team-list .team-item {
+    margin-bottom: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_team\.scss}line{font-family:\000038}}
+    ul.team-list .team-item .thumb-info-social-icons {
+      margin: 0 10px; }
+
+/* Responsive */
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_team\.scss}line{font-family:\0000317}}
+  ul.team-list .team-item {
+    margin: 0 auto 35px;
+    max-width: 270px; } }
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_team\.scss}line{font-family:\0000325}}
+  .isotope-item {
+    position: static !important;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none !important; } }
+/* Thumb Info */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\000032}}
+.thumb-info {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  max-width: 100%;
+  background-color: #FFF;
+  border-radius: 4px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000313}}
+  .thumb-info .thumb-info-wrapper {
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    border-radius: 0px;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000322}}
+    .thumb-info .thumb-info-wrapper.thumb-info-wrapper-demos {
+      max-height: 330px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000326}}
+    .thumb-info .thumb-info-wrapper:after {
+      content: "";
+      transition: all 0.3s;
+      border-radius: 4px;
+      bottom: -4px;
+      color: #FFF;
+      left: -4px;
+      position: absolute;
+      right: -4px;
+      top: -4px;
+      display: block;
+      opacity: 0;
+      z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000341}}
+    .thumb-info .thumb-info-wrapper.thumb-info-wrapper-link {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000345}}
+      .thumb-info .thumb-info-wrapper.thumb-info-wrapper-link > a {
+        display: block;
+        padding-top: 72%;
+        text-indent: -9999px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-0:after {
+    opacity: 0.0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-1:after {
+    opacity: 0.1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-2:after {
+    opacity: 0.2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-3:after {
+    opacity: 0.3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-4:after {
+    opacity: 0.4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-5:after {
+    opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-6:after {
+    opacity: 0.6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-7:after {
+    opacity: 0.7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-8:after {
+    opacity: 0.8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000355}}
+  .thumb-info .thumb-info-wrapper-opacity-9:after {
+    opacity: 0.9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000363}}
+  .thumb-info .thumb-info-inner {
+    transition: all 0.3s;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000366}}
+    .thumb-info .thumb-info-inner em {
+      display: block;
+      font-size: 0.8em;
+      font-style: normal;
+      font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000374}}
+  .thumb-info .thumb-info-title {
+    transition: all 0.3s;
+    background: rgba(150, 56, 141, 0.8);
+    color: #FFF;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -.05em;
+    position: absolute;
+    z-index: 2;
+    max-width: 90%;
+    font-size: 17px;
+    padding: 10px 20px;
+    bottom: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\0000389}}
+  .thumb-info .thumb-info-type {
+    background-color: #CCC;
+    border-radius: 2px;
+    display: inline-block;
+    float: left;
+    font-size: 0.6em;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 8px -2px -15px 0px;
+    padding: 2px 12px;
+    text-transform: uppercase;
+    z-index: 2;
+    line-height: 2.3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003104}}
+  .thumb-info img {
+    transition: all 0.3s ease;
+    border-radius: 0px;
+    position: relative;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003113}}
+  .thumb-info:hover .thumb-info-wrapper:after {
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003117}}
+  .thumb-info:hover .thumb-info-action-icon {
+    right: 0;
+    top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003121}}
+  .thumb-info:hover .thumb-info-title {
+    background: rgba(175, 202, 11, 0.9); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003124}}
+  .thumb-info:hover img {
+    transform: scale(1.1, 1.1); }
+
+/* Thumb Info Caption  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003133}}
+.thumb-info-caption {
+  padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003135}}
+  .thumb-info-caption .thumb-info-caption-text, .thumb-info-caption p {
+    font-size: 0.9em;
+    margin: 0;
+    padding: 15px 10px;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003140}}
+    .thumb-info-caption .thumb-info-caption-text a, .thumb-info-caption p a {
+      color: #96388d;
+      font-size: 0.8rem; }
+
+/* Responsive */
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_thumb-info\.scss}line{font-family:\00003151}}
+  .thumb-info .thumb-info-title {
+    font-size: 14px; } }
+/* Sort Source Style 3 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\000036}}
+.sort-source.sort-source-style-3 > li > a {
+  color: #777; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000310}}
+.sort-source.sort-source-style-3 > li.active > a {
+  background: transparent !important;
+  border-bottom: 3px solid #CCC;
+  border-radius: 0; }
+
+/* Sort Destination */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000321}}
+.sort-destination {
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000323}}
+  .sort-destination .isotope-item {
+    min-width: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000326}}
+  .sort-destination.full-width {
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000328}}
+    .sort-destination.full-width .isotope-item {
+      width: 20%;
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000331}}
+      .sort-destination.full-width .isotope-item.w2 {
+        width: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000334}}
+      .sort-destination.full-width .isotope-item .img-thumbnail, .sort-destination.full-width .isotope-item a, .sort-destination.full-width .isotope-item .thumb-info img {
+        border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000339}}
+  .sort-destination.full-width-spaced {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000343}}
+    .sort-destination.full-width-spaced .portfolio-item {
+      margin-left: 20px;
+      margin-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000349}}
+  .sort-destination.sort-destination-items-hardware-acc .isotope-item {
+    transform: translate3d(0, 0, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000356}}
+.sort-source-wrapper + .sort-destination.full-width {
+  margin: 0 0 -81px;
+  top: -51px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000363}}
+.sort-source-wrapper + .sort-destination-loader .full-width {
+  margin: 0 0 -81px;
+  top: -51px; }
+
+/* Sort Loading */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000370}}
+.sort-destination-loader {
+  height: auto;
+  overflow: hidden;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000374}}
+  .sort-destination-loader:after {
+    transition: opacity 0.3s;
+    content: ' ';
+    background: #FFF;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000386}}
+  .sort-destination-loader .bounce-loader {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000389}}
+  .sort-destination-loader.sort-destination-loader-showing {
+    max-height: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000391}}
+    .sort-destination-loader.sort-destination-loader-showing:after {
+      opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000394}}
+    .sort-destination-loader.sort-destination-loader-showing .bounce-loader {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\0000399}}
+  .sort-destination-loader.loader-showing-dark:after {
+    background: #181818; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003103}}
+  .sort-destination-loader.sort-destination-loader-loaded {
+    overflow: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003105}}
+    .sort-destination-loader.sort-destination-loader-loaded:after {
+      display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003111}}
+.sort-destination-loader-full-width {
+  overflow: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003113}}
+  .sort-destination-loader-full-width:after {
+    bottom: -81px;
+    top: -51px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003117}}
+  .sort-destination-loader-full-width.sort-destination-loader-showing {
+    overflow: hidden;
+    height: 600px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003124}}
+.sort-destination-loader-lg.sort-destination-loader-showing {
+  height: 600px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003131}}
+.portfolio-load-more-loader.portfolio-load-more-loader-showing .bounce-loader {
+  display: block !important; }
+
+/* Responsive */
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003140}}
+  .col-md-6.isotope-item:nth-child(2n+1) {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003144}}
+  .col-md-4.isotope-item:nth-child(3n+1) {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003148}}
+  .col-md-3.isotope-item:nth-child(4n+1) {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003152}}
+  .col-md-1-5.isotope-item:nth-child(5n+1) {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003156}}
+  .col-md-2.isotope-item:nth-child(6n+1) {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003160}}
+  .sort-destination.full-width .isotope-item:nth-child(5n+1) {
+    clear: both; } }
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003168}}
+  .sort-destination.isotope {
+    overflow: visible !important;
+    height: auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003171}}
+    .sort-destination.isotope.full-width {
+      overflow: hidden !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003176}}
+  .isotope-hidden {
+    display: none !important; } }
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003184}}
+  .isotope-item {
+    position: static !important;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003191}}
+    .isotope-item.product {
+      position: relative !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003196}}
+  .sort-source-wrapper {
+    background: #151719;
+    clear: both;
+    margin-top: -35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003200}}
+    .sort-source-wrapper .nav {
+      margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003205}}
+  .sort-destination {
+    height: auto !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003211}}
+  .sort-destination.full-width,
+  .sort-source-wrapper + .sort-destination.full-width {
+    max-width: none;
+    margin: 0 0 -30px;
+    top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003215}}
+    .sort-destination.full-width .isotope-item,
+    .sort-source-wrapper + .sort-destination.full-width .isotope-item {
+      max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003222}}
+  .sort-source-wrapper + .sort-destination-loader .full-width {
+    margin: 0 0 -30px;
+    top: 0; } }
+@media (max-width: 575px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/muhammadnadeem\/Desktop\/Provident\/master\/sass\/partials\/_sort\.scss}line{font-family:\00003235}}
+  .sort-destination.full-width .isotope-item,
+  .sort-source-wrapper + .sort-destination.full-width .isotope-item {
+    position: static !important;
+    clear: both;
+    float: none;
+    width: auto; } }
+
+/*# sourceMappingURL=elements.css.map */
